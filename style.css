@@ -110,11 +110,7 @@ body {
   position: relative;
 }
 
-img {
-  text-indent: -100vw;
-}
-
-/* .reviews-list__img::after {
+.reviews-list__img::after {
   content: "¯\005C_(ツ)_/¯";
   display: grid;
   place-content: center;
@@ -128,7 +124,7 @@ img {
   font-size: 10px;
   border-radius: 50%;
   background-color: #F4EFE2;
-} */
+}
 
 .reviews-list__name {
   grid-column: 2 / 3;
