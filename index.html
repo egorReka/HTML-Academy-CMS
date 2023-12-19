@@ -49,42 +49,67 @@
       </div>
     </div>
   </main>
-  <footer>
-    <div class="wrapper">
-      <ul class="reviews-list">
-        <li class="reviews-list__item">
-          <div class="reviews-list__img-wrapper">
-            <img class="reviews-list__img" src="ivan.jpg" width="50" height="50" alt="Фото Ивана Грачева.">
+  <footer class="main-footer">
+    <section class="reviews">
+      <div class="wrapper">
+        <h2 class="reviews__title">Оставить отзыв</h2>
+        <div class="reviews-form">
+          <div class="wpcf7">
+            <form class="wpcf7-form" action="">
+              <div class="cf7md-item">
+                <textarea class="wpcf7-textarea" id="input-1" name="your-message"
+                  placeholder="Расскажите, что вы думаете о проекте"></textarea>
+              </div>
+              <div class="cf7md-item">
+                <label class="visually-hidden" for="input-1">Ваше имя</label>
+                <input type="text" class="wpcf7-text" id="input-1" placeholder="Ваше имя">
+              </div>
+              <div class="reviews-form__column-wrapper">
+                <div class="reviews-form__column-item">
+                  <button class="wpcf7-submit">Отправить</button>
+                </div>
+                <div class="reviews-form__column-item">
+                  <p class="reviews-form__text">Отзыв будет добавлен после<br>проверки модератором</p>
+                </div>
+              </div>
+            </form>
           </div>
-          <p class="reviews-list__name">Иван Грачев</p>
-          <p class="reviews-list__text">Очень самобытный и необычный проект.</p>
-        </li>
-        <li class="reviews-list__item">
-          <div class="reviews-list__img-wrapper">
-            <img class="reviews-list__img" src="mariy.jpg" width="50" height="50" alt="Фото Марии Рачинской.">
-          </div>
-          <p class="reviews-list__name">Мария Рачинская</p>
-          <p class="reviews-list__text">Мне особенно понравилось решение лестничных клеток. Кружки вообще очень
-            стильные!</p>
-        </li>
-        <li class="reviews-list__item">
-          <div class="reviews-list__img-wrapper">
-            <img class="reviews-list__img" src="svetlana.jpg" width="50" height="50" alt="Фото Светланы.">
-          </div>
-          <p class="reviews-list__name">Светлана</p>
-          <p class="reviews-list__text">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты
-            скоро будут не только в частных домах, но и в кафе, музеях, театрах.<br>Я бы сходила!</p>
-        </li>
-        <li class="reviews-list__item">
-          <div class="reviews-list__img-wrapper">
-            <img class="reviews-list__img" src="none.jpg" width="50" height="50" alt="alt text.">
-          </div>
-          <p class="reviews-list__name">Светлана</p>
-          <p class="reviews-list__text">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты
-            скоро будут не только в частных домах, но и в кафе, музеях, театрах.<br>Я бы сходила!</p>
-        </li>
-      </ul>
-    </div>
+        </div>
+        <ul class="reviews-list">
+          <li class="reviews-list__item">
+            <div class="reviews-list__img-wrapper">
+              <img class="reviews-list__img" src="ivan.jpg" width="50" height="50" alt="Фото Ивана Грачева.">
+            </div>
+            <p class="reviews-list__name">Иван Грачев</p>
+            <p class="reviews-list__text">Очень самобытный и необычный проект.</p>
+          </li>
+          <li class="reviews-list__item">
+            <div class="reviews-list__img-wrapper">
+              <img class="reviews-list__img" src="mariy.jpg" width="50" height="50" alt="Фото Марии Рачинской.">
+            </div>
+            <p class="reviews-list__name">Мария Рачинская</p>
+            <p class="reviews-list__text">Мне особенно понравилось решение лестничных клеток. Кружки вообще очень
+              стильные!</p>
+          </li>
+          <li class="reviews-list__item">
+            <div class="reviews-list__img-wrapper">
+              <img class="reviews-list__img" src="svetlana.jpg" width="50" height="50" alt="Фото Светланы.">
+            </div>
+            <p class="reviews-list__name">Светлана</p>
+            <p class="reviews-list__text">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты
+              скоро будут не только в частных домах, но и в кафе, музеях, театрах.<br>Я бы сходила!</p>
+          </li>
+          <li class="reviews-list__item">
+            <div class="reviews-list__img-wrapper">
+              <img class="reviews-list__img" src="none.jpg" width="50" height="50" alt="alt text.">
+            </div>
+            <p class="reviews-list__name">Светлана</p>
+            <p class="reviews-list__text">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты
+              скоро будут не только в частных домах, но и в кафе, музеях, театрах.<br>Я бы сходила!</p>
+          </li>
+        </ul>
+      </div>
+    </section>
   </footer>
 
 </body>
